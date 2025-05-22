@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>parallax slider</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="curser curser-circle"></div> -->
+    <!-- <div class="curser curser-point"></div> -->
+   <main>
+     <nav class="hide">
+        <img class="signature" src="img/signature.png" alt="">
+        <ul>
+            <li class="nav-link">
+                <a href="#">works <i class="bi bi-chevron-down"></i></a>
+            </li>
+            <li class="nav-link">
+                <a href="#">about</a>
+            </li>
+            <li class="nav-link">
+                <a href="#">contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="image-wrap"></div>
+    <h1 class="big-name">Mohammad <br> Afroozi</h1>
+    <span class="scroll hide">Scroll Down</span>
+    <span class="line hide"></span>
+
+    <div class="bottom-section hide">
+        <p><i class="bi bi-geo-alt"></i> Located in Tehran</p>
+        <ul class="social">
+            <li><a href="">
+                <i class="bi bi-instagram"></i>
+            </a></li>
+            <li><a href="">
+                <i class="bi bi-linkedin"></i>
+            </a></li>
+            <li><a href="">
+                <i class="bi bi-github"></i>
+            </a></li>
+        </ul>
+    </div>
+   </main>
+   <!-- scroll sec -->
+  <header>
+        <nav>
+            <div class="container">
+                <h3 class="logo">Brand<span>Name</span></h3>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+
+        <h1 class="big-title translate" data-speed="0.1">Discover.</h1>
+
+        <img src="img/person.png" class="person translate" data-speed="-0.25" alt="">
+        <img src="img/mountain1.png" class="mountain1 translate" data-speed="-0.2" alt="">
+        <img src="img/mountain2.png" class="mountain2 translate" data-speed="0.4" alt="">
+        <img src="img/mountain3.png" class="mountain3 translate" data-speed="0.3" alt="">
+        <img src="img/sky.png" class="sky translate" data-speed="0.5" alt="">
+    </header>
+
+    <section>
+        <div class="shadow"></div>
+
+        <div class="container">
+            <div class="content opacity">
+                <h3 class="title">
+                    About
+                    <div class="border"></div>
+                </h3>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita ipsa, a quidem inventore voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum, doloribus odio consectetur consequuntur soluta quasi nobis! Deserunt voluptatum reiciendis iure expedita sequi quisquam laboriosam temporibus exercitationem.</p>
+            </div>
+
+            <div class="imgContainer opacity">
+                <img src="img/image.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+     <div class="slider">
+        <div class="bus">
+            <figure>
+                <img src="img/1.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="img/2.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="img/3.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="img/4.jpg" alt="">
+            </figure>
+           
+            
+        </div>
+        <span class="left">⫷</span>
+        <span class="right"> ⫸</span>
+        <ul id="bullet"></ul>
+    </div>
+  
+    <div class="bottomfoot">
+          <span>
+              <img src="./img/myphoto.jpg" alt="">
+              <p>  this project was coded by Mohammad Afroozi <br>master: parsa ghorbanian</p>
+               </span>
+          <div class="flex">
+                  <a class=" hover:translate-y-3 "  href="https://github.com/mohammadrezaafroozi" target="_blank">
+                      <i class="bi bi-github hover:text-fuchsia-950 transition-colors duration-500"></i>
+                  </a>
+                  <a class="hover:translate-y-3" href="https://www.linkedin.com/in/mohammad-reza-afroozi-65886b349/" target="_blank">
+                      <i class=" bi bi-linkedin  hover:text-fuchsia-950 transition-colors duration-500"></i>
+                  </a>
+                  <a class="hover:translate-y-3" href="https://www.instagram.com/afroozi_dev?igsh=MWNvODk2dGwwY29o" target="_blank">
+                      <i class=" bi bi-instagram  hover:text-fuchsia-950 transition-colors duration-500"></i>
+                  </a>
+                </div>
+              </div>
+             
+              </div>
+  
+       </footer>
+  
+       <!-- end footer/// -->
+  
+       <figure class="footer">
+        <a href="https://github.com/mohammadrezaafroozi" target="_blank">
+            <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mohammad-reza-afroozi-65886b349/" target="_blank">
+            <i class=" bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/afroozi_dev?igsh=MWNvODk2dGwwY29o" target="_blank">
+            <i class=" bi bi-instagram"></i>
+        </a>
+        <img src="./img/myphoto.jpg" alt="">
+        <figcaption>Mohammad Afroozi</figcaption>
+    </figure>
+   
+   <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
